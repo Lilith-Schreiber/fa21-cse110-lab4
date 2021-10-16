@@ -10,8 +10,20 @@
 10. 3; the length of the prices ([100, 200, 300]) is 3
 11. [50, 100, 150]; reason is the same as (4) and (8)
 12. A. student name B. student['Grad Year'] C. student.greeting() D. student['Favorite Teacher'].name E. student.courseLoad[1]
-13. A. "32" B. 1 C. 3 D. "3null" E. 4 F. 0 G. "3undefined" H. NaN
-14. A. true B. false C. true D. false E. false F. true
+13. A. "32"; string goes first, return string
+    B. 1 '-' can only be used for numbers, so return int
+    C. 3; int goes first, null convert to 0 as int
+    D. "3null"; string goes first, null appending to '3'
+    E. 4; since boolean cannot use the arithmetic, true convert to 1 as int, adding with 3
+    F. 0; 0 (false) + 0 (null)
+    G. "3undefined"; string goes first, undefined appending to '3'
+    H. NaN; cannot - undefined
+14. A. true; '2' convert to int, 2>1 is true
+    B. false; string comparison, 2<1 is false
+    C. true; '2' convert to int, 2=2 is true
+    D. false; === strictly bonded with data type, thus int cannot compare with string
+    E. false; true is 1 in int, not equal to 2
+    F. true; boolean 2 is true, true = true
 15. === inclued the comparison of data type, so if the data type is different, === will return false; in contrast, == does not consider data type, so 2=='2' will return true
 16. answer in part2-question16.js
 17. [2, 4, 6]; we pass the array [1, 2, 3] into the function modifyArray, then we use the loop to pass every item to the function doSomething to double the number
