@@ -9,7 +9,11 @@
 9. error: reason is same as (5)
 10. 3; the length of the prices ([100, 200, 300]) is 3
 11. [50, 100, 150]; reason is the same as (4) and (8)
-12. A. student name B. student['Grad Year'] C. student.greeting() D. student['Favorite Teacher'].name E. student.courseLoad[1]
+12. A. student name
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[1]
 13. A. "32"; string goes first, return string
     B. 1 '-' can only be used for numbers, so return int
     C. 3; int goes first, null convert to 0 as int

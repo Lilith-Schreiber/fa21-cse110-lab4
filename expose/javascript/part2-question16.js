@@ -8,5 +8,6 @@ let statistics = {
 };
 
 for (let i in statistics) {
+    if (statistics[i] % 2 == 1 || `${i}`[0] == 'r')
     console.log(`${i}: ${statistics[i]}`);
 }
