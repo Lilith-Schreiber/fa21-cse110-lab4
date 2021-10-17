@@ -14,10 +14,10 @@
     C. student.greeting()
     D. student['Favorite Teacher'].name
     E. student.courseLoad[1]
-13. A. "32"; string goes first, return string
-    B. 1 '-' can only be used for numbers, so return int
+13. A. "32"; since '3' is a string, then appending 2 behind
+    B. 1 '-' can only be used for numberic arithmetic, so return int
     C. 3; int goes first, null convert to 0 as int
-    D. "3null"; string goes first, null appending to '3'
+    D. "3null"; since '3' is a string, null appending to '3'
     E. 4; since boolean cannot use the arithmetic, true convert to 1 as int, adding with 3
     F. 0; 0 (false) + 0 (null)
     G. "3undefined"; string goes first, undefined appending to '3'
